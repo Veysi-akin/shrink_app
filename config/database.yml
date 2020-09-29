@@ -1,0 +1,16 @@
+default: &default
+  adapter: postgresql
+  pool: 5
+  timeout: 5000
+
+development:
+  <<: *default
+  database: shrink_development
+
+test:
+  <<: *default
+  database: shrink_test
+
+production:
+  <<: *default
+  url: <%= ENV['DATABASE_URL'] %>
