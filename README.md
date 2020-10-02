@@ -6,7 +6,7 @@ a URL shortening service using Ruby and Ruby On Rails.
 ### Prerequisites
 Ruby 2.6.6
 Rails 6.0.3.3
-sqlite db
+postgres 12.4
 
 ### Installation
 Follow below steps:
@@ -18,4 +18,4 @@ rails db:create
 rails db:migrate
 rails s
 
-The app running => http://localhost:3000/
+open http://localhost:3000
