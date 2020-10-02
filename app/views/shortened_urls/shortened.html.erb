@@ -1,8 +1,31 @@
 <html>
   <body>
     <center>
-      <h2>Your Original Url is: <%= @original_url %></h2>
+        <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+          <%= link_to "#", class: "navbar-brand" do %>
+            <%= image_tag "" %>
+            <% end %>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <%= link_to "Free URL Shortener", "#", class: "btn btn-flat" %>
+
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <%= link_to "Home", "#", class: "nav-link" %>
+              </li>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      <h2>Your Original Url is:  <%= @original_url %></h2>
       <h2>Your Shortener Url is: <%= @short_url %></h2>
     </center>
   </body>
 </html>
+
