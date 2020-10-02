@@ -6,7 +6,7 @@ a URL shortening service using Ruby and Ruby On Rails.
 ### Prerequisites
 Ruby 2.6.6
 Rails 6.0.3.3
-PostgreSQL
+postgres 12.4
 
 ### Installation
 Follow below steps:
