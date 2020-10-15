@@ -13,7 +13,7 @@ postgres 12.4
 ### Installation
 Follow below steps:
 
-git clone https://github.com/Veysi-akin/shrink_app.git
+git clone https://github.com/vysi/shrink_app.git
 
 cd shrink_app
 
