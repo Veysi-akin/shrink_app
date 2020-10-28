@@ -4,9 +4,9 @@
 a URL shortening service using Ruby and Ruby On Rails.
 
 ### Prerequisites
-Ruby 2.6.6
+Ruby 2.7.2
 
-Rails 6.0.3.3
+Rails 6.0.3.4
 
 postgres 12.4
 
